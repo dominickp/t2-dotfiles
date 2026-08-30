@@ -1,0 +1,4 @@
+HISTSIZE=50000
+SAVEHIST=50000
+
+source "$DOTFILES/aliases.zsh"
