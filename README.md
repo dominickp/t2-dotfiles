@@ -13,7 +13,7 @@ Personal shell configuration. Currently targets **zsh**.
 ### 1. Clone the repo
 
 ```sh
-git clone git@github.com:<you>/dotfiles.git ~/Documents/GitHub/dotfiles
+git clone https://github.com/dominickp/t2-dotfiles.git ~/Documents/GitHub/dotfiles
 ```
 
 ### 2. Source the files
