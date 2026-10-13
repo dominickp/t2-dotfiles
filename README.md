@@ -7,6 +7,8 @@ Personal shell configuration. Currently targets **zsh**.
 | File | Purpose |
 |------|---------|
 | `aliases.zsh` | Shell aliases (includes a `reload` alias) |
+| `general.zsh` | General shell options; sources `aliases.zsh` |
+| `desktop-setup.zsh` | Manual Fedora/GNOME tweaks to re-apply after a reset |
 
 ## Setup
 
@@ -36,3 +38,8 @@ Once `aliases.zsh` is loaded, you can re-source your config from anywhere with:
 ```sh
 reload
 ```
+
+## Desktop setup (Fedora/GNOME)
+
+Run `./desktop-setup.zsh` manually after a reset — see comments in the script
+for what each tweak does and why.
